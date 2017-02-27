@@ -41,7 +41,7 @@ public class BH_SetUp_TearDown extends INITIALIZE {
 	@BeforeSuite
 	public void AtBeforeSuite(ITestContext ic) throws Exception {
 		String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
-		System.out.println("Inside Method - " + methodName);
+		System.out.println("Inside - " + methodName);
 						
 		scriptName = ic.getCurrentXmlTest().getName().toString();
 						
