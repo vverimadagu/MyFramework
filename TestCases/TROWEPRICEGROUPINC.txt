@@ -1,0 +1,16 @@
+************************** - TROWEPRICEGROUPINC - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'TRowePrice'
+Enter Employer Password 'Backupcare1'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'TRoweFname154'
+Enter LastName 'TRoweLname154'
+Enter Username 'BHU082714113801'
+Enter Employee ID 'TRowe154'
+
+

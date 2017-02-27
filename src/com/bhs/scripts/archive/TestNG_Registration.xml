@@ -1,0 +1,49 @@
+<suite name="BH Regression">
+	<test name="CB Reservation">
+		
+		<classes>
+		
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			
+			<class name="com.bhs.scripts.employeeportal.EP_Registration_AuthorizedContacts_Tests">
+			<methods>
+                <include name="EP_AuthorizedContactsSignupUser" />
+                <include name="EP_AddAuthorizedContactsTest" />
+                <include name="EP_ListAuthorizedContactsTest" />
+                <include name="EP_AuthorizedContactsDisplayTest" />
+                <include name="EP_UpdateAuthorizedContactsTest" />
+                <include name="EP_NewAuthorizedContactsTest" />
+                <include name="EP_AddEmailAuthorizedContactsTest" />
+                <include name="EP_UpdateEmailAuthorizedContactsTest" />
+                <include name="EP_InactiveAuthorizedContactsTest" />
+                <include name="EP_AuthorizedContactsTestAffectReservations" />
+            </methods>
+			</class>
+			
+			<class name="com.bhs.scripts.employeeportal.EP_Registration_CareRecepients_Tests">
+			<methods>
+                <include name="EP_Add_New_Care_Recepient" />
+                <include name="EP_Care_Recepient_Inactive" />
+                <include name="EP_Care_Recepient_Display_Profile" />
+                <include name="EP_Add_New_Care_Recepient_Error" />
+                <include name="EP_Update_Care_Recepient" />
+            </methods>
+			</class>
+			
+			<class name="com.bhs.scripts.employeeportal.EP_Registration_Locations_Tests">
+			<methods>
+                <include name="EP_AddLocation_Registration" />
+                <include name="EP_LeadingZerosZipCode" />
+                <include name="EP_Locations_UpdateAddress" />
+                <include name="EP_CareAtLocatioWithoutHome" />
+                <include name="EP_RemoveAPetFromALocation" />
+                <include name="EP_PetTypeDropdownValidation" />
+                <include name="EP_ValidateLocations" />
+                <include name="EP_CannotUpdateLocations" />
+            </methods>
+			</class>
+		
+		</classes>
+		
+	</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Suite]">
+  <test name="Demo Test(failed)">
+    <classes>
+      <class name="com.scripts.EP_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtBeforeTest"/>
+        </methods>
+      </class> <!-- com.scripts.EP_SetUp_TearDown -->
+      <class name="com.scripts.EP_CBReservation">
+        <methods>
+          <include name="EP_CBReservationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.scripts.EP_CBReservation -->
+    </classes>
+  </test> <!-- Demo Test(failed) -->
+</suite> <!-- Failed suite [Demo Suite] -->

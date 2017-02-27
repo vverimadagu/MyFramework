@@ -1,0 +1,16 @@
+************************** - BAKERMCKENZIELLP - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'BakerMcKenzie'
+Enter Employer Password 'Baker4Backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'BMcK Fname 154'
+Enter LastName 'BMcK Lname 154'
+Enter Username 'BHU082714102811'
+Enter Employee ID '1122484'
+
+

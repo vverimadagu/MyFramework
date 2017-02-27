@@ -1,0 +1,16 @@
+************************** - JPMORGANCHASECO - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'JPMC'
+Enter Employer Password 'childcare'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'JPMorganFN154'
+Enter LastName 'JPMorganLN154'
+Enter Username 'BHU082714110900'
+Enter Employee ID 'JPMorganID154'
+
+

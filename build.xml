@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="runTest" name="BH Regression">
+
+	<property name="src" location="./src" />
+	<property name="bin" location="./bin" />
+	<property name="lib" location="./lib" />
+	<property environment="env" />
+	
+	<path id="classpath">
+		<fileset dir="${lib}" includes="**/*.jar" />
+		<pathelement location="${bin}" />
+	</path>
+
+	<target name="clean">
+		<echo message="deleting existing bin directory" />
+		<delete dir="${bin}" />
+	</target>
+
+	<target name="init">
+		<echo message="Creating bin directory" />
+		<mkdir dir="${bin}" />
+	</target>
+
+	<target name="compile" depends="clean,init">
+		<echo message="classpath:${test.classpath}" />
+		<echo message="compiling.........." />
+		<javac destdir="${bin}" srcdir="${src}" classpathref="classpath" includeantruntime="false" debug="true" debuglevel="lines,source" />
+	</target>
+
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+		<classpath>
+			<pathelement location="lib/testng-6.2.jar" />
+			
+		</classpath>
+	</taskdef>
+
+
+	<target name="runTest" depends="compile">
+		<testng classpathref="classpath" outputdir="test-results" haltonfailure="true" useDefaultListeners="false" listeners="org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter">
+		
+		<xmlfileset dir="." includes="BHAutomationSuite.xml" />
+		<!-- <xmlfileset dir="." includes="TestNG_BH_ValidationRegression.xml" /> -->
+		
+		<sysproperty key="org.uncommons.reportng.title" value="BH Test Report" />
+
+		</testng>
+	</target>
+
+
+</project>

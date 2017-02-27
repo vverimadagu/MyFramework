@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EP_NonEligibility Smoke Test]">
+  <listeners>
+    <listener class-name="com.bhs.util.CustomReport"/>
+  </listeners>
+  <test name="BNPParabas(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+        <methods>
+          <include name="EP_SignUpAndCBReservationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeSuite"/>
+          <include name="AtAfterSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- BNPParabas(failed) -->
+  <test name="BrightHorizonsFamilySolutions(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+        <methods>
+          <include name="EP_SignUpAndCBReservationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeSuite"/>
+          <include name="AtAfterSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- BrightHorizonsFamilySolutions(failed) -->
+  <test name="Cisco(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+        <methods>
+          <include name="EP_SignUpAndCBReservationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeSuite"/>
+          <include name="AtAfterSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- Cisco(failed) -->
+  <test name="LandsEnd(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+        <methods>
+          <include name="EP_SignUpAndCBReservationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeSuite"/>
+          <include name="AtAfterSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- LandsEnd(failed) -->
+  <test name="NewYorkLifeInsuranceCompany(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+        <methods>
+          <include name="EP_SignUpAndCBReservationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeSuite"/>
+          <include name="AtAfterSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- NewYorkLifeInsuranceCompany(failed) -->
+  <test name="StateStreetCorp(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+        <methods>
+          <include name="EP_CBReservationTest"/>
+          <include name="EP_60ClientsCBReservationTest"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_SignupRegistration -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeTest"/>
+          <include name="AtBeforeSuite"/>
+          <include name="AtAfterSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtAfterTest"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- StateStreetCorp(failed) -->
+</suite> <!-- Failed suite [EP_NonEligibility Smoke Test] -->

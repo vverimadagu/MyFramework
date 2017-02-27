@@ -1,0 +1,28 @@
+<suite name="BH Automation">
+
+
+
+<test name="StateStreetCorp">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="StateStreetCorp" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />-->
+					<!--<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+
+	
+	<listeners>
+         <listener class-name="com.bhs.util.CustomReport"/>
+ </listeners>
+</suite>

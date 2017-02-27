@@ -1,0 +1,16 @@
+************************** - MICROSOFT - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Microsoft'
+Enter Employer Password 'backupcare2'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'MicrosoftFN154'
+Enter LastName 'MicrosoftLN154'
+Enter Username 'BHU082714111826'
+Enter Employee ID 'MicrosoftFN154@noemail.com'
+
+

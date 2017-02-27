@@ -1,0 +1,16 @@
+************************** - RICEUNIVERSITY - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Rice'
+Enter Employer Password 'backup7'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'RiceFN154'
+Enter LastName 'RiceLN154'
+Enter Username 'BHU082714112309'
+Enter Employee ID '80516'
+
+

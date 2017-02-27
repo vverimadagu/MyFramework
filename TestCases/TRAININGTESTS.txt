@@ -1,0 +1,4 @@
+************************** - TRAININGTESTS - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - https://www.google.com
+

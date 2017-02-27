@@ -1,0 +1,111 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BH_EP_Reservations">
+	<test name="Reservations_Steps">
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_Step1_Tests">
+				<methods>
+						<include name="viewAndSelectReasonForcare" >
+						<parameter name="client" value="Client1"/>
+						</include>
+						<include name="healthStatusInHomeEligible"/>
+						<include name="careRecipientsWithDefaultFields"/>
+						<include name="verifyCareRecipientsAndContinueToStep2"/>
+						<include name="viewAndSelectCareRecipients"/>
+						<include name="specialProgramReservation"/>
+						<include name="learnMoreSpecialPrograms"/>
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_step2_Test">
+				<methods>
+				<parameter name="client" value="Client5" />
+						<include name="EP_Res_Step2_Care_Recepient_Checked"/>
+						<include name="EP_Res_Step2_AddLocation"/>
+						<include name="EP_ReservationStep2_AlongaRoute"/>
+						<include name="EP_ReservationStep2_NavBack"/>
+						<include name="EP_ReservationWizardStep2to3"/>
+						<include name="EP_ResStep2DateTimenotPreselected"/>
+						<include name="EP_ReserStep3to2RemoveCareSession"/>
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_step3_Test">
+				<methods>
+						<parameter name="client5" value="Client5"/>
+						<parameter name="client1" value="client1"/>
+						<parameter name="client8" value="Client8"/>
+						<parameter name="client2" value="Client2"/>
+						<include name="EP_ResStep3InHomeCare"/>
+						<include name="EP_ResStep3InHomeCare_12125To28"/>
+						 <include name="EP_ResStep3InHomeCare_Hotel_AddLocation"/>
+						<include name="EP_ResStep3InHomeCare_Step3toStep4"/>
+						<include name="EP_ResStep3_CRExpectedAtCareLocation"/>
+						<include name="EP_ResStep3_SelfcareRecipient_CCDisabled"/>
+						<include name="EP_ResStep3_SrchCriteriaAndDistanceSldrEdited"/>
+						<include name="EP_ResStep3CenterBasedDisabledforill"/>
+						<include name="EP_ResStep3ScheduleAdultsCare"/> 
+						<include name="EP_ResStep3InHomeReqProviderCaregiver"/>
+						<include name="EP_ResStep3ExcludeforFutureCare"/>
+						<include name="EP_ResStep3_InHome_HotelCare_ErrormessageValidation"/>
+						<include name="EP_ReservationWizardStep3_PetFieldsValidations"/> 
+						<include name="EP_ReservationWizardStep3_Add_Delete_Pet"/>
+						<include name="EP_ResStep3CenterBasedCare"/>
+						<include name="EP_Step3ToStep2"/>
+						<include name="EP_Step3ToStep4"/>
+						<include name="EP_ResStep3ViewFullProfile"/>
+						<include name="EP_ResStep3ReserveNow"/>
+						<include name="EP_ResStep3MapDirections"/>
+						<include name="EP_ResStep3SpecialPrograms"/>
+						<include name="EP_EditReservation_UpdateInfoforCBRes"/>
+						<include name="EP_DisplayForInHomeCare"/>
+					</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_Step4_Test"> 
+                 <methods> 
+                       <parameter name="client" value="Client5"/>
+                       <include name="EP_ReservationSignupUser"/>
+					   <include name="EP_ReservationWizardStep45_backButton"/> 
+                       <include name="EP_ReservationWizardStep4_Instructions"/> 
+                       <include name="EP_ReservationWizardStep4_RadioButton"/> 
+                       <include name="EP_ReservationWizardStep4_VerifyCR"/> 
+              		   <include name="EP_ReservationWizardStep4_VerifyPageNavigation"/> 
+                       <include name="EP_ReservationWizardStep4_VerifySplInstIsBlank"/> 
+                       <include name="EP_ReservationWizardStep45_VerifyCareProfilePage"/> 
+                       <include name="EP_ReservationWizardStep4_VerifyCareProfilePageBackBtn"/> 
+                       <include name="EP_ReservationWizardStep45_VerifyCareRecipientsMsg"/> 
+                       <include name="EP_ReservationWizardStep4_NavigatetoStep5"/> 
+                  </methods> 
+            </class>  
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_Step5_Test">
+				<methods>
+					<parameter name="client" value="Client5"/>
+					<include name="EP_ReservationSignupUser"/>
+				    <include name="EP_ReservationWizardStep5_PrefMethodOfContact"/> 
+                     <include name="EP_ReservationWizardStep5_VerifyCareProviders"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyCareSessions"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyCareRecipients"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyReservationContacts"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyPaymentMethodEdit"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyPaymentTerms"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyUtilizationModule"/> 
+                    <include name="EP_ReservationStep5_TermsofPayment"/> 
+                    <include name="EP_Step5ToStep4"/> 
+                    <include name="EP_Step5_VerifyReqDifferentTime"/>         
+                    <include name="EP_ReservationWizardStep5_VerifyValidationEmailPhoneNum"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyRequestReservation"/> 
+                    <include name="EP_ReservationWizardStep5_AuthContact_Error"/> 
+                    <include name="EP_ReservationWizardStep5_EditButton"/>
+                    <include name="EP_ReservationWizardStep5_ViewallAcceptableProviderslink"/>
+                 	<include name="EP_ReservationWizardStep5_Editresv"/> 
+                 	<include name="EP_ReservationWizardStep5_InHome_RequestReservation" />
+                 	<include name="EP_EditResv_CareProfile" />
+                 	<include name="EP_ReservationWizardStep5_VerifyPaymentMethod_Dropdown"/>
+                    <include name="EP_ReservationWizardStep5_SelectfromPaymentMethod_Dropdown"/>
+                 	<include name="EP_ReservationWizardStep5_EditSplInst"/> 
+                 	<include name="EP_ReservationWizardStep5_EditResv_PaymentMethod" />
+                 	<include name="EP_ReservationWizardStep5_AddNewPaymentMethod" />
+                </methods>
+			</class>
+			</classes> 
+	</test>
+</suite>

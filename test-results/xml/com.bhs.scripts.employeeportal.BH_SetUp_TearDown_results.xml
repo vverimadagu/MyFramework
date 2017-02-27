@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Client3 Sanity"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.826">
+  <properties />
+  
+  
+            <testcase name="AtTest" time="1.826" classname="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+      
+</testsuite>

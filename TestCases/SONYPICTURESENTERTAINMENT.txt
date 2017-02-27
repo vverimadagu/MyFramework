@@ -1,0 +1,11 @@
+************************** - SONYPICTURESENTERTAINMENT - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'SPE'
+Enter Employer Password 'Backup1'
+Click 'Verify Employer'
+Click 'Accept Use Policy'
+
+

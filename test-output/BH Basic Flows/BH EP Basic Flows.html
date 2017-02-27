@@ -1,0 +1,953 @@
+<html>
+<head>
+<title>TestNG:  BH EP Basic Flows</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BH EP Basic Flows</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/16/13</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 13 14:34:50 EDT 2014</td>
+</tr>
+<tr><td>Total time:</td><td>3371 seconds (3371243 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_BenefitsPolicies_JumpToPolicy()'><b>EP_BenefitsPolicies_JumpToPolicy</b><br>Test class: com.bhs.scripts.employeeportal.EP_Benefit_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1092)
+	at com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_BenefitsPolicies_JumpToPolicy(EP_Benefit_Test.java:347)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace276956969", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace276956969'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1092)
+	at com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_BenefitsPolicies_JumpToPolicy(EP_Benefit_Test.java:347)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>79</td>
+<td>com.bhs.scripts.employeeportal.EP_Benefit_Test@496419dc</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_BenefitsPriorityAccess()'><b>EP_BenefitsPriorityAccess</b><br>Test class: com.bhs.scripts.employeeportal.EP_Benefit_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_BenefitsPriorityAccess(EP_Benefit_Test.java:175)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1724796060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1724796060'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_BenefitsPriorityAccess(EP_Benefit_Test.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>152</td>
+<td>com.bhs.scripts.employeeportal.EP_Benefit_Test@496419dc</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileSignupUser()'><b>EP_CareProfileSignupUser</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.clickElement(COMMON_METHODS.java:391)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.EP_verifyEmployer(EP_BusinessComponents.java:132)
+	at com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileSignupUser(EP_CareProfiles_Tests.java:37)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1654160932", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1654160932'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.clickElement(COMMON_METHODS.java:391)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.EP_verifyEmployer(EP_BusinessComponents.java:132)
+	at com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileSignupUser(EP_CareProfiles_Tests.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>99</td>
+<td>com.bhs.scripts.employeeportal.EP_CareProfiles_Tests@2af21f19</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_CompleteReservation()'><b>EP_CompleteReservation</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_CompleteReservation(EP_Reservation_Test.java:712)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1436988037", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1436988037'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_CompleteReservation(EP_Reservation_Test.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>174</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.EP_MyAccount()'><b>EP_MyAccount</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.EP_Update_General_Settings(EP_BusinessComponents.java:1521)
+	at com.bhs.scripts.employeeportal.EP_Home_Tests.EP_MyAccount(EP_Home_Tests.java:146)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace556296296", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace556296296'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.EP_Update_General_Settings(EP_BusinessComponents.java:1521)
+	at com.bhs.scripts.employeeportal.EP_Home_Tests.EP_MyAccount(EP_Home_Tests.java:146)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>63</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_Res_Edit_Cancel_CareSessions()'><b>EP_Res_Edit_Cancel_CareSessions</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_General_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1092)
+	at com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_Res_Edit_Cancel_CareSessions(EP_Reservation_General_Test.java:120)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1459126851", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1459126851'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1092)
+	at com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_Res_Edit_Cancel_CareSessions(EP_Reservation_General_Test.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>82</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_General_Test@2ca7887e</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_ReservationFulfillment_ReserveNow()'><b>EP_ReservationFulfillment_ReserveNow</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_General_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.clickElement(COMMON_METHODS.java:391)
+	at com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_ReservationFulfillment_ReserveNow(EP_Reservation_General_Test.java:173)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace844785685", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace844785685'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.clickElement(COMMON_METHODS.java:391)
+	at com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_ReservationFulfillment_ReserveNow(EP_Reservation_General_Test.java:173)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>160</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_General_Test@2ca7887e</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep1()'><b>EP_ReservationWizardStep1</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep1(EP_Reservation_Test.java:406)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327569236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace327569236'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep1(EP_Reservation_Test.java:406)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>97</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep2()'><b>EP_ReservationWizardStep2</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep2(EP_Reservation_Test.java:449)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1078740074", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1078740074'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep2(EP_Reservation_Test.java:449)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>96</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep3()'><b>EP_ReservationWizardStep3</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep3(EP_Reservation_Test.java:500)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1970195104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1970195104'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep3(EP_Reservation_Test.java:500)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>102</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep45()'><b>EP_ReservationWizardStep45</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep45(EP_Reservation_Test.java:572)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1663579504", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1663579504'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep45(EP_Reservation_Test.java:572)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>161</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep5()'><b>EP_ReservationWizardStep5</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep5(EP_Reservation_Test.java:625)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace345994416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace345994416'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_ReservationWizardStep5(EP_Reservation_Test.java:625)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>112</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_Reservation_TellUsAbout_Section()'><b>EP_Reservation_TellUsAbout_Section</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_General_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_Reservation_TellUsAbout_Section(EP_Reservation_General_Test.java:266)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace143680113", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace143680113'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_Reservation_TellUsAbout_Section(EP_Reservation_General_Test.java:266)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>149</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_General_Test@2ca7887e</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_Reservations_CrisisCareAssist()'><b>EP_Reservations_CrisisCareAssist</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_Reservations_CrisisCareAssist(EP_Reservation_Test.java:754)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1800313169", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1800313169'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.editAField(COMMON_METHODS.java:306)
+	at com.bhs.BusinessComponents.EP_BusinessComponents.LoginEmployeeportal(EP_BusinessComponents.java:39)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_Reservations_CrisisCareAssist(EP_Reservation_Test.java:754)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>125</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_Reservations_MyCareAssist()'><b>EP_Reservations_MyCareAssist</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_Reservations_MyCareAssist(EP_Reservation_Test.java:830)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1888889990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1888889990'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.util.REPORTER.catchException(REPORTER.java:1041)
+	at com.bhs.util.COMMON_METHODS.VerifyTextPresent(COMMON_METHODS.java:1098)
+	at com.bhs.scripts.employeeportal.EP_Reservation_Test.EP_Reservations_MyCareAssist(EP_Reservation_Test.java:830)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>157</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_Test@2e4a4890</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.Help_Email_Us_Link_Cancel()'><b>Help_Email_Us_Link_Cancel</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.scripts.employeeportal.EP_Home_Tests.Help_Email_Us_Link_Cancel(EP_Home_Tests.java:312)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1689560796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1689560796'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at com.bhs.util.REPORTER.LogEvent(REPORTER.java:722)
+	at com.bhs.scripts.employeeportal.EP_Home_Tests.Help_Email_Us_Link_Cancel(EP_Home_Tests.java:312)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>63</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.EP_Add_Payment_Information()'><b>EP_Add_Payment_Information</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>79</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_Benefits()'><b>EP_Benefits</b><br>Test class: com.bhs.scripts.employeeportal.EP_Benefit_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>81</td>
+<td>com.bhs.scripts.employeeportal.EP_Benefit_Test@496419dc</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_BenefitsPolicies_BacktoTopLinks()'><b>EP_BenefitsPolicies_BacktoTopLinks</b><br>Test class: com.bhs.scripts.employeeportal.EP_Benefit_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>55</td>
+<td>com.bhs.scripts.employeeportal.EP_Benefit_Test@496419dc</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Reservation_General_Test.EP_CareProfileSignupUserCBReservation()'><b>EP_CareProfileSignupUserCBReservation</b><br>Test class: com.bhs.scripts.employeeportal.EP_Reservation_General_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>300</td>
+<td>com.bhs.scripts.employeeportal.EP_Reservation_General_Test@2ca7887e</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.EP_Feedback_Submit()'><b>EP_Feedback_Submit</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>51</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.EP_General()'><b>EP_General</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>36</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.EP_Help_FAQ_Topic_Links()'><b>EP_Help_FAQ_Topic_Links</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>42</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.EP_HomepageNavigation()'><b>EP_HomepageNavigation</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>113</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.EP_LoadsHelpPage()'><b>EP_LoadsHelpPage</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>39</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_MakeAReservation()'><b>EP_MakeAReservation</b><br>Test class: com.bhs.scripts.employeeportal.EP_Benefit_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>94</td>
+<td>com.bhs.scripts.employeeportal.EP_Benefit_Test@496419dc</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Benefit_Test.EP_OverviewLinksValidation()'><b>EP_OverviewLinksValidation</b><br>Test class: com.bhs.scripts.employeeportal.EP_Benefit_Test<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>49</td>
+<td>com.bhs.scripts.employeeportal.EP_Benefit_Test@496419dc</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Provider_Tests.EP_ProviderStandardSearchTest()'><b>EP_ProviderStandardSearchTest</b><br>Test class: com.bhs.scripts.employeeportal.EP_Provider_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>59</td>
+<td>com.bhs.scripts.employeeportal.EP_Provider_Tests@677d8938</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Provider_Tests.EP_ProviderSubmitNomination()'><b>EP_ProviderSubmitNomination</b><br>Test class: com.bhs.scripts.employeeportal.EP_Provider_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>68</td>
+<td>com.bhs.scripts.employeeportal.EP_Provider_Tests@677d8938</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_SignInSuccessfullogin()'><b>EP_SignInSuccessfullogin</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>43</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_SignUpAgreementPolicy()'><b>EP_SignUpAgreementPolicy</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>24</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_SignUpPageTest()'><b>EP_SignUpPageTest</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>13</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_SignUpPolicyPageTest()'><b>EP_SignUpPolicyPageTest</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>22</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_SignUpSuccessfulSignUp()'><b>EP_SignUpSuccessfulSignUp</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>55</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_SignUpUserSubmitPolicyTest()'><b>EP_SignUpUserSubmitPolicyTest</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>16</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_SignUpUserUpdateEmpProfile()'><b>EP_SignUpUserUpdateEmpProfile</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>68</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_SignUp_Tests.EP_UpdateEmpProfile()'><b>EP_UpdateEmpProfile</b><br>Test class: com.bhs.scripts.employeeportal.EP_SignUp_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>72</td>
+<td>com.bhs.scripts.employeeportal.EP_SignUp_Tests@617c66f0</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.Help_Email_Us_Link_Submit()'><b>Help_Email_Us_Link_Submit</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>50</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_Home_Tests.My_Profile_ensure_funding_links()'><b>My_Profile_ensure_funding_links</b><br>Test class: com.bhs.scripts.employeeportal.EP_Home_Tests<br>Parameters: org.testng.TestRunner@10f23791</td>
+<td></td>
+<td>43</td>
+<td>com.bhs.scripts.employeeportal.EP_Home_Tests@434ac3cb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileAddAuthorizationContacts()'><b>EP_CareProfileAddAuthorizationContacts</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileAddCareRecipientsTest()'><b>EP_CareProfileAddCareRecipientsTest</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileEmployeeProfileTest()'><b>EP_CareProfileEmployeeProfileTest</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileICONS()'><b>EP_CareProfileICONS</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileLocations()'><b>EP_CareProfileLocations</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileMyProfileTest()'><b>EP_CareProfileMyProfileTest</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileUpdateAuthorizationContacts()'><b>EP_CareProfileUpdateAuthorizationContacts</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_CareProfileUpdateHomeLocation()'><b>EP_CareProfileUpdateHomeLocation</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_VerifyAuthorizedContactBenefitAccessNo()'><b>EP_VerifyAuthorizedContactBenefitAccessNo</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_VerifyAuthorizedContactBenefitAccessYes()'><b>EP_VerifyAuthorizedContactBenefitAccessYes</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_VerifyAuthorizedContactPage()'><b>EP_VerifyAuthorizedContactPage</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_VerifyAuthorizedContactRelationshipandPrivilages()'><b>EP_VerifyAuthorizedContactRelationshipandPrivilages</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.bhs.scripts.employeeportal.EP_CareProfiles_Tests.EP_VerifyEmptyAuthorizedContactMessages()'><b>EP_VerifyEmptyAuthorizedContactMessages</b><br>Test class: com.bhs.scripts.employeeportal.EP_CareProfiles_Tests</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

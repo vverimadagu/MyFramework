@@ -1,0 +1,16 @@
+************************** - MORGANTANLEYUK - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'MorganStanleyUK'
+Enter Employer Password 'Caring1'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'MSUKFN154'
+Enter LastName 'MSUKLN154'
+Enter Username 'BHU082714112048'
+Enter Employee ID 'MSUK154'
+
+

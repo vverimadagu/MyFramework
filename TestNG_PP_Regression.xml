@@ -1,0 +1,79 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BH Regression">
+	<test name="PP_Regression">
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.providerportal.PP_AccountManagement">
+				<methods>
+					<include name="PP_EditExclusion"/>
+					<include name="PP_AM_ProviderProfile_VerifyTaxID"/>
+					<!--<include name="PP_AM_SubmitCancelExclusion"/>
+				--></methods>
+			</class>
+			<class name="com.bhs.scripts.providerportal.PP_Caregivers_Tests">
+				<methods>
+					<include name="PP_Caregivers_ViewByDropDown"/>
+					<include name="PP_Caregivers_UpdateExistingCaregivers"/>
+					<include name="PP_Caregivers_AddCaregiversBlankPage"/>
+					<include name="PP_Caregivers_AddCaregiversUXDOC"/>
+					<include name="PP_Caregivers_AddCaregiversBGYDP"/>
+					<include name="PP_AddCaregivers_HireDatefutureDateNotAllowed"/>
+					<include name="PP_Deactivate_CareGiver"/>
+					<include name="PP_CareGiver_TrainingGuide"/>
+					<include name="PP_AddCaregivers_CancelButton"/>
+					<include name="PP_AddCaregivers_CancelMultipleCareGiver"/>
+					<include name="PP_AddCaregivers_AllFiledsRequired"/>
+					<include name="PP_Caregivers_AddCaregiversTabbedOptions"/>
+					<include name="PP_Resources_Caregiverguidelines"/>
+					<include name="PP_Resources_ProgramPolicies"/>
+					<include name="PP_Multiple_Caregiver"/>
+					<include name="PP_Caregiver_Pagination"/>
+					<include name="PP_Multiple_Update_Caregiver"/>
+					<include name="PP_CaregiversRequestToREActivate"/>
+					<include name="PP_Caregivers_SubmitCaregive"/>
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.providerportal.PP_General_Tests">
+				<methods>
+					<include name="PP_AccountManagement_AddNewContact"/>
+					<include name="PP_Provider_MonthlyNewsletter"/>
+					<include name="PP_AuthorizedContactsAddLocation"/>
+					<include name="PP_CareGiver_TrainingGuide"/>
+					<include name="PP_ReservationTypes"/>
+					<include name="PP_Deactivate_CareGiver"/>
+					<include name="PP_ForgetPassword"/>
+					<!--<include name="PP_ResetPassword"/>
+					--><include name="PP_Contacts_SubmitContact"/>
+					<include name="PP_HelpLinks"/>
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.providerportal.PP_Reservations_Tests">
+				<methods>
+				<include name="EP_InHomeReservation"/>
+				<include name="PP_Reservations_PendingReservations_TimeRemaining"/>
+				<include name="PP_ReservationTypes"/>
+				<include name="PP_Reservation_VerifyCRDropdown"/>
+				<include name="PP_AvailableReservations_Links"/>
+				<!--<include name="PP_EnsureSelectCaregiverForPendingReservation"/>
+				<include name="PP_EnsureShowHideLinkFunctionality"/>
+				<include name="PP_EnsureMapLocationFunctionality"/>-->
+				<include name="PP_StaffLater"/>
+				<!--<include name="PP_Reservations_Tabs"/>-->
+				<include name="PP_Reservations_Feedback"/>
+				<!--<include name="PP_Pending_Reservations_Staff_Cancel"/>
+				--><include name="PP_AddServiceAreas"/>
+				<include name="CR_MapLocation"/>
+				<include name="CR_ViewAuthorization"/>
+			 	<!--<include name="SR_ChangeCareGiverStaffingPage"/>		
+			 	--><include name="PP_ReservationForMoreThan48Hours"/>
+			 	<include name="PP_ReservationFor24to48Hours"/>	
+		</methods>
+			</class>	
+			<!--<class name="com.bhs.scripts.providerportal.PP_SmokeTest_Tests">
+				<methods>
+					<include name="PP_SmokeTest"/>
+				</methods>
+			</class>				
+	--></classes>
+	</test>
+</suite>

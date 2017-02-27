@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BH Sanity]">
+  <test name="Employee Portal Sanity(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.TestClass">
+        <methods>
+          <include name="TestClass_Test"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.TestClass -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtBeforeSuite"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- Employee Portal Sanity(failed) -->
+</suite> <!-- Failed suite [BH Sanity] -->

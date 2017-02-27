@@ -1,0 +1,16 @@
+************************** - BLUECROSSBLUESHIELDOFNORTHCAROLINA - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'BCBSNC'
+Enter Employer Password 'BCBSNCbackup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'BCBSNC Fname 154'
+Enter LastName 'BCBSNC Lname 154'
+Enter Username 'BHU082714103740'
+Enter Employee ID 'BCBSNC154'
+
+

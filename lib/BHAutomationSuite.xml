@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BH Automation Suite">
+	<suite-files>
+	<suite-file path="./TestNG_NewClients_Regression.xml" />
+    <suite-file path="./TestNG_NonEligibilityClients_Smoke.xml" />
+	<!--<suite-file path="./TestNG_BH_ValidationRegression.xml" />
+    <suite-file path="./TestNG_EP_Complete_Reservations.xml" />
+  	<suite-file path="./TestNG_Regression.xml" />
+    <suite-file path="./TestNG_Signup_CBReservation_AllClients.xml" />
+    <suite-file path="./TestNG_CCP_Regression.xml" />
+    <suite-file path="./TestNG_PP_Regression.xml" />
+     <suite-file path="./TestNG_CrisisCare.xml" />
+    --><!--<suite-file path="./TestNG_CoPay_Regression.xml" />
+	--></suite-files>
+	<listeners>
+         <listener class-name="com.bhs.util.CustomReport"/>
+ </listeners>
+</suite>

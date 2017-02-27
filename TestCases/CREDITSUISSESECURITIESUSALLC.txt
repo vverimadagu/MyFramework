@@ -1,0 +1,16 @@
+************************** - CREDITSUISSESECURITIESUSALLC - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'CreditSuisse'
+Enter Employer Password 'cs4backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'CreditSuisse Fname 154'
+Enter LastName 'CreditSuisse Lname 154'
+Enter Username 'BHU082714104445'
+Enter Employee ID '80020'
+
+

@@ -1,0 +1,64 @@
+<suite name="BH Copay Regression">
+	<test name="Co Pay Tests">
+	
+	
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			
+			<class name="com.bhs.scripts.employeeportal.EP_Copay_Tests">
+				<methods>
+				    <include name="EP_CopaySignupUser"/>
+				    <include name="EP_CopayRule_Client1_CareReceipents1"/>
+				    <include name="EP_CopayRule_Client1_CareRecepients1_MidlyIll"/>
+				    <include name="EP_CopayRule_Client1_HealthyOneCR_3hours"/>
+				    <include name="EP_CopayRule_Client1_Healthy_3CRs"/>
+				    
+				    <include name="EP_CopayRule_Client2_CareReceipents1"/>
+				    <include name="EP_CopayRule_Client2_3CRHealthyLessthan18Years"/>
+				    <include name="EP_CopayRule_Client2_CareRecepients1_MidlyIll"/>
+				    <include name="EP_CopayRule_Client2_CRMoreThan18Years"/>
+				    <include name="EP_CopayRule_Client2_InHomeHealthyOneCR"/>
+				    <include name="EP_CopayRule_Client2_InHomeHealthyOneCR_3hours"/>
+				    <include name="EP_CopayRule_Client2_3CRInHome_Lessthan18Years"/>
+				    <include name="EP_CopayRule_Client2_InHomeandCenterBasedHealthyOneCR"/>
+				    
+				    <include name="EP_CopayRule_Client3_CareReceipents1"/>
+				    <include name="EP_CopayRule_Client3_CareRecepients1_MidlyIll"/>
+				    <include name="EP_CopayRule_Client3_CRMoreThan18Years"/>
+				    <include name="EP_CopayRule_Client3_HealthyTwoCR_3hours"/>
+				    
+				    <include name="EP_CopayRule_Client4_CenterBasedOneCRHealthy"/>
+				    <include name="EP_CopayRule_Client4_InHomeHealthyOneCR"/>
+				    <include name="EP_CopayRule_Client4_3CRInHome_Lessthan18Years"/>
+				    
+				    <include name="EP_CopayRule_Client5_CenterBasedOneCRHealthy"/>
+				    <include name="EP_CopayRule_Client5_CRMoreThan18Years"/>
+				    
+				    <include name="EP_CopayRule_Client6_CenterBasedOneCRHealthy"/>
+				    <include name="EP_CopayRule_Client6_InHomeHealthyOneCR"/>
+				    
+				    <include name="EP_CopayRule_Client7_OneCRHealthyLessthan18Years"/>
+				    <include name="EP_CopayRule_Client7_3CRHealthyLessthan18Years"/>
+				    <include name="EP_CopayRule_Client7_4CRHealthyLessthan18Years"/>
+				    
+				    <include name="EP_CopayRule_Client8_CenterBasedOneCRHealthy"/>
+				    <include name="EP_CopayRule_Client8_InHomeHealthyOneCR"/>
+				    <include name="EP_CopayRule_Client8_3CRInHome_Lessthan18Years"/>
+				    
+				    <include name="EP_CopayRule_Client9_CenterBasedOneCRHealthy"/>
+				    <include name="EP_CopayRule_Client9_InHomeHealthyOneCR"/>
+				    <include name="EP_CopayRule_Client9_3CRInHome_Lessthan18Years"/>
+				    
+				    <include name="EP_CopayRule_Client10_CenterBasedOneCRHealthy"/>
+				    <include name="EP_CopayRule_Client10_InHomeHealthyOneCR"/>
+				    <include name="EP_CopayRule_Client10_3CRInHome_Lessthan18Years"/>
+				   
+				</methods>
+			</class>
+			
+			
+			
+		</classes>
+	</test>
+</suite>

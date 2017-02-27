@@ -1,0 +1,16 @@
+************************** - DEUTSCHEBANK - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Backup'
+Enter Employer Password 'Deutsche'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'DeutscheFname154'
+Enter LastName 'DeutscheLname154'
+Enter Username 'BHU082714104948'
+Enter Employee ID 'Deutsche154'
+
+

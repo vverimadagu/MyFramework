@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BH Basic Flows]">
+  <test name="BH EP Basic Flows(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtAfterTest"/>
+          <include name="AtBeforeSuite"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+      <class name="com.bhs.scripts.employeeportal.EP_Benefit_Test">
+        <methods>
+          <include name="EP_BenefitsPolicies_JumpToPolicy" invocation-numbers="0"/>
+          <include name="EP_BenefitsPriorityAccess" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_Benefit_Test -->
+      <class name="com.bhs.scripts.employeeportal.EP_Reservation_General_Test">
+        <methods>
+          <include name="EP_Reservation_TellUsAbout_Section" invocation-numbers="0"/>
+          <include name="EP_Res_Edit_Cancel_CareSessions" invocation-numbers="0"/>
+          <include name="EP_ReservationFulfillment_ReserveNow" invocation-numbers="0"/>
+          <include name="EP_CareProfileSignupUserCBReservation"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_Reservation_General_Test -->
+      <class name="com.bhs.scripts.employeeportal.EP_CareProfiles_Tests">
+        <methods>
+          <include name="EP_CareProfileSignupUser" invocation-numbers="0"/>
+          <include name="EP_CareProfileAddCareRecipientsTest"/>
+          <include name="EP_VerifyAuthorizedContactRelationshipandPrivilages"/>
+          <include name="EP_CareProfileEmployeeProfileTest"/>
+          <include name="EP_CareProfileLocations"/>
+          <include name="EP_CareProfileAddAuthorizationContacts"/>
+          <include name="EP_CareProfileUpdateAuthorizationContacts"/>
+          <include name="EP_CareProfileUpdateHomeLocation"/>
+          <include name="EP_VerifyAuthorizedContactBenefitAccessNo"/>
+          <include name="EP_VerifyEmptyAuthorizedContactMessages"/>
+          <include name="EP_VerifyAuthorizedContactPage"/>
+          <include name="EP_CareProfileMyProfileTest"/>
+          <include name="EP_CareProfileICONS"/>
+          <include name="EP_VerifyAuthorizedContactBenefitAccessYes"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_CareProfiles_Tests -->
+      <class name="com.bhs.scripts.employeeportal.EP_Home_Tests">
+        <methods>
+          <include name="EP_MyAccount" invocation-numbers="0"/>
+          <include name="Help_Email_Us_Link_Cancel" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_Home_Tests -->
+      <class name="com.bhs.scripts.employeeportal.EP_Reservation_Test">
+        <methods>
+          <include name="EP_ReservationWizardStep45" invocation-numbers="0"/>
+          <include name="EP_ReservationWizardStep3" invocation-numbers="0"/>
+          <include name="EP_ReservationWizardStep1" invocation-numbers="0"/>
+          <include name="EP_CompleteReservation" invocation-numbers="0"/>
+          <include name="EP_ReservationWizardStep2" invocation-numbers="0"/>
+          <include name="EP_ReservationWizardStep5" invocation-numbers="0"/>
+          <include name="EP_Reservations_MyCareAssist" invocation-numbers="0"/>
+          <include name="EP_Reservations_CrisisCareAssist" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_Reservation_Test -->
+    </classes>
+  </test> <!-- BH EP Basic Flows(failed) -->
+</suite> <!-- Failed suite [BH Basic Flows] -->

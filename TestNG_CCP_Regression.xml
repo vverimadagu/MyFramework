@@ -1,0 +1,121 @@
+<suite name="BUCA_Regression">
+
+   <test name="CCP_Home_Tests">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+
+			<class name="com.bhs.scripts.carecenterportal.CCP_Home_Tests">
+				<methods>
+					<include name="CCP_FooterLinks" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="CCP_CenterManagement">
+		<classes>
+		
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+		
+			<class name="com.bhs.scripts.carecenterportal.CCP_CenterManagement">
+				<methods>
+					<include name="CCP_CM_CenterActivities" />
+					<include name="CC_AddEmployeeTimeSheet" />
+					<include name="CCP_CenterProfile" />
+					<include name="CCP_CM_CenterCapacity_ChangeNumbers" />
+					<include name="CCP_CM_CenterCapacity_SelectedDate" />
+					<include name="CCP_CM_CenterCapacity_SelectedDateRange" />
+					<include name="CCP_Navigation" />
+					<include name="CCP_Resv_Links" />
+					<include name="CCP_Change_CenterLink" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="CCP_EditReservation_Tests">
+		<classes>
+		
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+		
+			<class name="com.bhs.scripts.carecenterportal.CCP_EditReservation_Tests">
+				<methods>
+					<parameter name="client" value="Client1" />
+					<include name="CCP_EditCareRecipients" />
+					<include name="CCP_ACChangeLocation" />
+					<include name="CCP_EditReservation_UpdateInfoforCBRes" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="CCP_Smoke_Test">
+		<classes>
+			<class name="com.bhs.scripts.carecenterportal.CCP_Smoke_Test">
+				<methods>
+					<include name="CCP_Smoke" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="CCP_ReservationFulfillment_Tests">
+		<classes>
+		
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+		
+			<class
+				name="com.bhs.scripts.carecenterportal.CCP_ReservationFulfillment_Tests">
+				<methods>
+					<parameter name="client" value="Client1" />
+
+					<include name="CCP_ReservationManagement_ModifiedReservationWizard" />
+					<include name="CCP_ReservationFulfillment_ConfirmPendingReservation" />
+					
+					<include name="CCP_Reservations_AddFee" />
+					<include name="CCP_Reservations_AdjustCallBackTime" />
+					<include name="CCP_Reservations_Links" />
+					<include name="CCP_Reservations_EditNotes" />
+					<include name="CCP_Reservations_CenterSummary" />
+					<include name="CCP_ClientPrograms_atleast2char" />
+					<include name="CCP_ClientPrograms_SearchCriteria" />
+					<include name="CCP_ClientPrograms_SearchCriteria_Client_ShortName_alias" />
+					<include name="CCP_ClientPrograms_SearchCriteriatextretained" />
+					<include name="CCP_FamilySearch_DefaultPage" />
+					<include name="CCP_FamilySimpleSearch" />
+					<include name="CCP_ChangeCCLocation" />
+					<include name="CCP_FamilyPhonenumber" />
+					<include name="CCP_Reservation_Viewlist" />
+					<include name="CCP_SerachFamilyMgmt" />
+					<include name="CCP_AdvancedSearchHomeAdd" />
+					<include name="CCP_AdvancedSearch" />
+					<include name="CCP_FamilyCRActive_Inactive" />
+					<include name="CCP_ClientPrograms_Search" />
+					<include name="CCP_ConfirmedWeeklyCareSession_ClassRoomTypes" />
+					<include name="CCP_AddNewEmployee" />
+					<include name="CCP_FamilyManagement" />
+					<include name="CCP_ViewReport" />
+					<include name="CCP_ViewPendingDays" />
+					<include name="CCP_RequestUsageAdjustment" />
+					<include name="CCP_ReservationManagement_ReservationSummary" />
+					<include name="CCP_Landing" />
+					<include name="CCP_ReservationManagement_ExpandAll" />
+					<include name="CCP_ReservationManagement_EditReservation_AddOtherProvider" />
+					<include name="CCP_NavigateOtherDates" />
+					<include name="CCP_CenterActivities" />
+					<include name="CCP_ClientAlerts" />
+					<include name="CCP_EditResView" />
+					<include name="CCP_CancelSelected_WaiveCopay" />
+					<include name="CCP_ReservationFulfillment_SecondCenterReservation" />
+					<include name="CCP_ResvWizard" />
+					<include name="CCP_CancelCareSessions" />
+					<include name="CCP_CancelSelected_Waitlisted" />
+					<include name="CCP_RequestCoPayAdjustment" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+
+</suite>

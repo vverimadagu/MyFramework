@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="EP_Complete_Regression">
+
+	<test name="BNPParabas">
+		<parameter name="client" value="BNPParabas" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="BrightHorizonsFamilySolutions">
+		<parameter name="client" value="BrightHorizonsFamilySolutions" />
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="AllenOveryUK">
+		<parameter name="client" value="AllenOveryUK" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Chevron">
+		<parameter name="client" value="Chevron" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Cisco">
+		<parameter name="client" value="CiscoSystems" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="JetPropulsionLaboratory">
+		<parameter name="client" value="JetPropulsionLaboratory" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="LandsEnd">
+		<parameter name="client" value="LandsEnd" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="NationalInstitutesofHealth">
+		<parameter name="client" value="NationalInstitutesofHealth" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="NewYorkLifeInsuranceCompany">
+		<parameter name="client" value="NewYorkLifeInsuranceCompany" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="ReebokInternationalLtd">
+		<parameter name="client" value="ReebokInternationalLtd" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TargetCorporation">
+		<parameter name="client" value="TargetCorporation" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TheBostonConsultingGroup">
+		<parameter name="client" value="TheBostonConsultingGroup" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="StateStreetCorp">
+		<parameter name="client" value="StateStreetCorp" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="VerizonWireless">
+		<parameter name="client" value="VerizonWireless" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AmericanExpress">
+		<parameter name="client" value="AmericanExpress" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="BakerMcKenzieLLP">
+		<parameter name="client" value="BakerMcKenzieLLP" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="BakerMcKenzieLLP-CaliforniaOffice">
+		<parameter name="client" value="BakerMcKenzieLLP-CaliforniaOffice" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="BankofAmerica">
+		<parameter name="client" value="BankofAmerica" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="BillMelindaGatesFoundation">
+		<parameter name="client" value="BillMelindaGatesFoundation" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="BlueCrossBlueShieldofNorthCarolina">
+		<parameter name="client" value="BlueCrossBlueShieldofNorthCarolina" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ColumbiaUniversity">
+		<parameter name="client" value="ColumbiaUniversity" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="CreditSuisseSecuritiesUSALLC">
+		<parameter name="client" value="CreditSuisseSecuritiesUSALLC" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Dell">
+		<parameter name="client" value="Dell" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="DeutscheBank">
+		<parameter name="client" value="DeutscheBank" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Draftfcb">
+		<parameter name="client" value="Draftfcb" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ESPN">
+		<parameter name="client" value="ESPN" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GoldmanSachs">
+		<parameter name="client" value="GoldmanSachs" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GoogleInc">
+		<parameter name="client" value="GoogleInc" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GoogleIncIRE">
+		<parameter name="client" value="GoogleIncIRE" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GoogleIncUK">
+		<parameter name="client" value="GoogleIncUK" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="HoganLovellsUSLLP">
+		<parameter name="client" value="HoganLovellsUSLLP" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Ingersoll-RandCompany">
+		<parameter name="client" value="Ingersoll-RandCompany" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="JPMorganChaseCo">
+		<parameter name="client" value="JPMorganChaseCo" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MemorialSloan-KetteringCancerCenter">
+		<parameter name="client" value="MemorialSloan-KetteringCancerCenter
+		" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Microsoft">
+		<parameter name="client" value="Microsoft" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MorgantanleyUK">
+		<parameter name="client" value="MorgantanleyUK" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="RiceUniversity">
+		<parameter name="client" value="RiceUniversity" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="SempraEnergySempraEnergyUtilities">
+		<parameter name="client" value="SempraEnergySempraEnergyUtilities" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ShearmanSterlingLLP">
+		<parameter name="client" value="ShearmanSterlingLLP" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="SidleyAustinLLP">
+		<parameter name="client" value="SidleyAustinLLP" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="SkaddenArpsSlateMeagherFlomLLP">
+		<parameter name="client" value="SkaddenArpsSlateMeagherFlomLLP" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="SonyPicturesEntertainment">
+		<parameter name="client" value="SonyPicturesEntertainment" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="USAA">
+		<parameter name="client" value="USAA" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TimeWarnerInc">
+		<parameter name="client" value="TimeWarnerInc" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ThomsonReuters">
+		<parameter name="client" value="ThomsonReuters" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TheHomeDepot">
+		<parameter name="client" value="TheHomeDepot" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TRowePriceGroupInc">
+		<parameter name="client" value="TRowePriceGroupInc" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="JPMorganChaseCoUK">
+		<parameter name="client" value="JPMorganChaseCoUK" />
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="AllianceDataSystemsCorporation">
+		<parameter name="client" value="AllianceDataSystemsCorporation" />
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignupRegistration">
+				<methods>
+					<include name="EP_60ClientsCBReservationTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>
+	

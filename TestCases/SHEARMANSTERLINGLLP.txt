@@ -1,0 +1,16 @@
+************************** - SHEARMANSTERLINGLLP - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'ShearmanSterling'
+Enter Employer Password '4backup1'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'ShearmanFN154'
+Enter LastName 'ShearmanLN154'
+Enter Username 'BHU082714112806'
+Enter Employee ID 'ShearmanUniID154'
+
+

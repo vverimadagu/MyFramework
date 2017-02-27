@@ -1,0 +1,16 @@
+************************** - THEHOMEDEPOT - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'homedepot'
+Enter Employer Password 'homedepot'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'HomeDepotFname154'
+Enter LastName 'HomeDepotLname154'
+Enter Username 'BHU082714114024'
+Enter Employee ID 'HomeDepot154'
+
+

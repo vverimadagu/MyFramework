@@ -1,0 +1,16 @@
+************************** - JPMORGANCHASECOUK - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'JPMorgan'
+Enter Employer Password 'backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'JPMorganUKFN154'
+Enter LastName 'JPMorganUKLN154'
+Enter Username 'BHU082714111131'
+Enter Employee ID 'JPMorganUKID154'
+
+

@@ -1,0 +1,16 @@
+************************** - CITIGROUP - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'citi'
+Enter Employer Password 'group'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'BH_FN_082714104004'
+Enter LastName 'BH_LN_082714104004'
+Enter Username 'BHU082714104004'
+Enter Email '082714104004@gmail.com'
+
+

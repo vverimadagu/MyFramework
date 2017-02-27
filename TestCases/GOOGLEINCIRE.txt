@@ -1,0 +1,16 @@
+************************** - GOOGLEINCIRE - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'GoogleIE'
+Enter Employer Password 'backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'FN00154'
+Enter LastName 'LN0154'
+Enter Username 'BHU082714105911'
+Enter Employee ID 'FN00154.LN0154@noemail.org'
+
+

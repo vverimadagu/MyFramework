@@ -1,0 +1,16 @@
+************************** - SKADDENARPSSLATEMEAGHERFLOMLLP - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Skadden'
+Enter Employer Password 'Arps'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'SkaddenFname154'
+Enter LastName 'SkaddenLname154'
+Enter Username 'BHU082714113304'
+Enter Employee ID 'Skadden154'
+
+

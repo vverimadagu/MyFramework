@@ -1,0 +1,16 @@
+************************** - COLUMBIAUNIVERSITY - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'columbia'
+Enter Employer Password 'backupcare'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'Columbia Fname 154'
+Enter LastName 'Columbia Lname 154'
+Enter Username 'BHU082714104232'
+Enter Employee ID 'Columbia154'
+
+

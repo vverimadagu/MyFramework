@@ -1,0 +1,16 @@
+************************** - MEMORIALSLOAN-KETTERINGCANCERCENTER - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'MSKCC'
+Enter Employer Password 'dependent'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'MemorialFN154'
+Enter LastName 'MemorialLN154'
+Enter Username 'BHU082714111608'
+Enter Employee ID 'Cost154'
+
+

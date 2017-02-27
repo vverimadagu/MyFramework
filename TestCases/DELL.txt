@@ -1,0 +1,16 @@
+************************** - DELL - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Dell'
+Enter Employer Password 'backupcare2'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'DellFname154'
+Enter LastName 'DellLname154'
+Enter Username 'BHU082714104711'
+Enter Employee ID 'Dell154'
+
+

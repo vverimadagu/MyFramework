@@ -1,0 +1,31 @@
+<suite name="BH Automation">
+
+
+
+<test name="TrainingTests">
+		<classes>
+
+			<class
+				name="com.training.Training">
+				<methods>
+					<include name="loginToGoogle"/>
+						
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="TrainingTests1">
+		<classes>
+
+			<class
+				name="com.training.Training">
+				<methods>
+					<include name="loginToGoogle"/>
+						
+				</methods>
+			</class>
+		</classes>
+	</test>
+	</suite>

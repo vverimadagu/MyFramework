@@ -1,0 +1,16 @@
+************************** - TIMEWARNERINC - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'timewarner'
+Enter Employer Password 'backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'TWFname154'
+Enter LastName 'TWLname154'
+Enter Username 'BHU082714114503'
+Enter Employee ID 'TW154'
+
+

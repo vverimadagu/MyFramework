@@ -1,0 +1,11 @@
+************************** - BANKOFAMERICA - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'BofABUCA'
+Enter Employer Password 'backup4Bank'
+Click 'Verify Employer'
+Click 'Accept Use Policy'
+
+

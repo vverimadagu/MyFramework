@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="EP_NewClients_Regression.xml">
+
+<!--<test name="AllianceDataSystemsCorporation">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="AllianceDataSystemsCorporation" />
+					</include>
+					<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="AmericanExpress">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="AmericanExpress" />
+					</include>
+					<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+-->
+	
+	<test name="BakerMcKenzieLLP">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="BakerMcKenzieLLP" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="BakerMcKenzieLLP-CaliforniaOffice">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="BakerMcKenzieLLP-CaliforniaOffice" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+
+<test name="BankofAmerica">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="BankofAmerica" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="BillMelindaGatesFoundation">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="BillMelindaGatesFoundation" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="BlueCrossBlueShieldofNorthCarolina">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="BlueCrossBlueShieldofNorthCarolina" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="CitiGroup">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="CitiGroup" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+
+	<test name="ColumbiaUniversity">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="ColumbiaUniversity" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="CreditSuisseSecuritiesUSALLC">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="CreditSuisseSecuritiesUSALLC" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Dell">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="Dell" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+
+
+<test name="DeutscheBank">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="DeutscheBank" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="ESPN">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="ESPN" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GoldmanSachs">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="GoldmanSachs" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="GoogleInc">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="GoogleInc" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GoogleIncIRE">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="GoogleIncIRE" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="GoogleIncUK">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="GoogleIncUK" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+
+
+<test name="HoganLovellsUSLLP">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="HoganLovellsUSLLP" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+
+<test name="Ingersoll-RandCompany">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="Ingersoll-RandCompany" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="JPMorganChaseCo">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="JPMorganChaseCo" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					 <include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" /> 
+				--></methods>
+			</class>
+		</classes>
+		</test>
+		
+	<test name="JPMorganChaseCoUK">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="JPMorganChaseCoUK" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					--><!--<include name="EP_AddCRAndDoCBReservation" />
+					 <include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" /> 
+				--></methods>
+			</class>
+		</classes>	
+		</test>
+		
+		<test name="McGraw-HillCompanies">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="McGraw-HillCompanies" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					 <include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" /> 
+				--></methods>
+			</class>
+		</classes>			
+	</test>
+	
+	<test name="MemorialSloan-KetteringCancerCenter">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="MemorialSloan-KetteringCancerCenter" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Microsoft">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="Microsoft" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MorgantanleyUK">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="MorgantanleyUK" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="RiceUniversity">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="RiceUniversity" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="SempraEnergySempraEnergyUtilities">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="SempraEnergySempraEnergyUtilities" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ShearmanSterlingLLP">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="ShearmanSterlingLLP" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="SidleyAustinLLP">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="SidleyAustinLLP" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="SkaddenArpsSlateMeagherFlomLLP">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="SkaddenArpsSlateMeagherFlomLLP" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="SonyPicturesEntertainment">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="SonyPicturesEntertainment" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TRowePriceGroupInc">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="TRowePriceGroupInc" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="TheHomeDepot">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="TheHomeDepot" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ThomsonReuters">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="ThomsonReuters" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="TimeWarnerInc">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="TimeWarnerInc" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="USAA">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest">
+						<parameter name="client" value="USAA" />
+					</include>
+					<!--<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				--></methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+
+	<listeners>
+		<listener class-name="com.bhs.util.CustomReport" />
+	</listeners>
+
+
+
+</suite>

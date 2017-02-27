@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BH_EP_CBReservation">
+	<test name="CBReservation">
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			
+			<!--<class name="com.bhs.scripts.employeeportal.EP_CBReservation">
+			<methods>
+               <include name="EP_CBReservationTest" />
+                <include name="EP_CBReservation1" />
+                <include name="EP_CBReservation2" />
+               </methods>
+			</class>
+			 
+			--><class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest" />
+              <include name="EP_AddCRAndDoCBReservation" />
+               <include name="EP_InHomeReservation" /> 
+               <include name="CC_ConfirmCBReservation" />
+               </methods>
+			</class>
+			
+			</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+************************** - INGERSOLL-RANDCOMPANY - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Ingersoll'
+Enter Employer Password '4backupcare'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'IngersollFN154'
+Enter LastName 'IngersollLN154'
+Enter Username 'BHU082714110626'
+Enter Employee ID 'IngersollFN154@email.com'
+
+

@@ -1,0 +1,16 @@
+************************** - GOLDMANSACHS - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'goldmansachs'
+Enter Employer Password 'gsparents'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'GoldmanFname154'
+Enter LastName 'GoldmanLname154'
+Enter Username 'BHU082714105426'
+Enter Employee ID 'Goldman154'
+
+

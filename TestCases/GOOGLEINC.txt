@@ -1,0 +1,16 @@
+************************** - GOOGLEINC - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Google'
+Enter Employer Password 'backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'FN00150'
+Enter LastName 'LN0150'
+Enter Username 'BHU082714105648'
+Enter Employee ID 'FN00154.LN0154@noemail.org'
+
+

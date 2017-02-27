@@ -1,0 +1,6 @@
+************************** - DEFAULT TEST - EXECUTION LOG - **************************
+
+Step 1	02/13/2016 23:23:15	openBrowser
+Step 2	02/13/2016 23:23:44	editAField
+Step 3	02/13/2016 23:23:57	clickElement
+Step 4	02/13/2016 23:24:05	clickElement

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BH Automation]">
+  <listeners>
+    <listener class-name="com.bhs.util.CustomReport"/>
+  </listeners>
+  <test name="StateStreetCorp(failed)">
+    <classes>
+      <class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+        <methods>
+          <include name="EP_SignUpAndCBReservationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests -->
+      <class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown">
+        <methods>
+          <include name="AtBeforeTest"/>
+          <include name="AtAfterSuite"/>
+          <include name="AtAfterTest"/>
+          <include name="AtBeforeSuite"/>
+        </methods>
+      </class> <!-- com.bhs.scripts.employeeportal.BH_SetUp_TearDown -->
+    </classes>
+  </test> <!-- StateStreetCorp(failed) -->
+</suite> <!-- Failed suite [BH Automation] -->

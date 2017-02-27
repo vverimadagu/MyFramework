@@ -1,0 +1,16 @@
+************************** - ESPN - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'ESPN'
+Enter Employer Password 'espn4backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'ESPNFname154'
+Enter LastName 'ESPNLname154'
+Enter Username 'BHU082714105209'
+Enter Employee ID 'ESPN154'
+
+

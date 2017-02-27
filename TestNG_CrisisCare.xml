@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BUCA_CrisisCare">
+	<test name="EP_CrisisCareAssist_Reservation">
+	<parameter name="client" value="Client5"/>
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CrisisCareAssist_Reservation">
+				<methods>
+					<include name="EP_CCARes_Navigation" />
+					<include name="EP_Reservations_CrisisCareAssist" />
+					<include name="EP_CCA_SubmitConfirmationandReleaseForm" />
+
+					<!-- <include name="EP_CCA_SubmitReimbursementForm"/> -->
+					<!-- (This method needs to be executed one day after the above methods) -->
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

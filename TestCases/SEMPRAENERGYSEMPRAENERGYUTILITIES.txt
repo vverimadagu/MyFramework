@@ -1,0 +1,16 @@
+************************** - SEMPRAENERGYSEMPRAENERGYUTILITIES - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'sempra'
+Enter Employer Password 'sempracares'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'SempraFN154'
+Enter LastName 'SempraLN154'
+Enter Username 'BHU082714112542'
+Enter Employee ID 'SempraFN154@email.com'
+
+

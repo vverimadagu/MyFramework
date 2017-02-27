@@ -1,0 +1,16 @@
+************************** - USAA - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'USAA'
+Enter Employer Password 'backup2009'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'USAA Fname 154'
+Enter LastName 'USAA Lname 154'
+Enter Username 'BHU082714114730'
+Enter Employee ID 'No Eligity'
+
+

@@ -1,0 +1,16 @@
+************************** - BILLMELINDAGATESFOUNDATION - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'BMGF'
+Enter Employer Password 'backup'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'GatesFound Fname 154'
+Enter LastName 'GatesFound Lname 154'
+Enter Username 'BHU082714103520'
+Enter Employee ID 'GatesFound154'
+
+

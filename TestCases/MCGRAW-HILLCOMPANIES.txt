@@ -1,0 +1,11 @@
+************************** - MCGRAW-HILLCOMPANIES - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'MHF'
+Enter Employer Password '4backup'
+Click 'Verify Employer'
+Click 'Accept Use Policy'
+
+

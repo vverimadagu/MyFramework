@@ -1,0 +1,7 @@
+************************** - DEFAULT TEST - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - https://www.google.com
+Enter SearchText 'Selenium.org'
+Click 'SearchBtn'
+Click 'SeleniumLink'
+

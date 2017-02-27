@@ -1,0 +1,477 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="EP_Complete_Regression.xml">
+	
+	<test name="EP_Validation">
+		<classes>
+		<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+			<class name="com.bhs.scripts.employeeportal.EP_SignUp_Tests">
+				<methods>
+
+					<include name="EP_SignUpPageTest" />
+					<include name="EP_SignUpPolicyPageTest" />
+					<include name="EP_SignUpUserUpdateEmpProfile" />
+
+				</methods>
+			</class>
+
+			<class name="com.bhs.scripts.employeeportal.EP_Home_Tests">
+				<methods>
+
+					<include name="EP_HomepageNavigation" />
+
+					<include name="EP_MyAccount" />
+					<include name="Help_Email_Us_Link_Submit" />
+					<include name="Help_Email_Us_Link_Cancel" />
+					<include name="EP_Feedback_Submit" />
+					<include name="My_Profile_ensure_funding_links" />
+					<include name="EP_Help_FAQ_Topic_Links" />
+					<include name="EP_LoadsHelpPage" />
+
+				</methods>
+
+			</class>
+
+			<class name="com.bhs.scripts.employeeportal.EP_Provider_Tests">
+				<methods>
+					<include name="EP_ProviderStandardSearchTest" />
+					<include name="EP_ProviderSubmitNomination" />
+				</methods>
+			</class>
+
+			<class name="com.bhs.scripts.employeeportal.EP_Benefit_Test">
+				<methods>
+					<include name="EP_BenefitSignupUser" />
+					<include name="EP_Benefits" />
+					<include name="EP_BenefitsPriorityAccess" />
+					<include name="EP_BenefitsPolicies_BacktoTopLinks" />
+					<include name="EP_BenefitsPolicies_JumpToPolicy" />
+					<include name="EP_MakeAReservation" />
+					<include name="EP_OverviewLinksValidation" />
+
+				</methods>
+			</class>
+
+			<class
+				name="com.bhs.scripts.employeeportal.EP_Registration_AuthorizedContacts_Tests">
+				<methods>
+					<include name="EP_AuthorizedContactsSignupUser" />
+					<include name="EP_AddAuthorizedContactsTest" />
+					<include name="EP_ListAuthorizedContactsTest" />
+					<include name="EP_AuthorizedContactsDisplayTest" />
+					<include name="EP_UpdateAuthorizedContactsTest" />
+					<include name="EP_NewAuthorizedContactsTest" />
+					<include name="EP_AddEmailAuthorizedContactsTest" />
+					<include name="EP_UpdateEmailAuthorizedContactsTest" />
+					<include name="EP_InactiveAuthorizedContactsTest" />
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.EP_CareProfiles_Tests">
+				<methods>
+					<include name="EP_CareProfileSignupUser" />
+					<include name="EP_CareProfileMyProfileTest" />
+					<include name="EP_CareProfileEmployeeProfileTest" />
+					<include name="EP_CareProfileAddCareRecipientsTest" />
+					<include name="EP_Care_Recepient_Inactive" />
+					<include name="EP_Care_Recepient_Display_Profile" />
+					<include name="EP_Add_New_Care_Recepient_Error" />
+					<include name="EP_Update_Care_Recepient" />
+					<include name="EP_Add_Update_New_Care_Recepient" />
+					<include name="EP_SignUp_CareRecipients_Error" />
+					<include name="EP_CareProfileAddAuthorizationContacts" />
+					<include name="EP_CareProfileUpdateAuthorizationContacts" />
+					<include name="EP_CareProfileUpdateHomeLocation" />
+					<include name="EP_VerifyAuthorizedContactPage" />
+					<include name="EP_VerifyAuthorizedContactBenefitAccessYes" />
+					<include name="EP_VerifyAuthorizedContactBenefitAccessNo" />
+					<include name="EP_VerifyAuthorizedContactRelationshipandPrivilages" />
+					<include name="EP_VerifyEmptyAuthorizedContactMessages" />
+					<include name="EP_Authorized_Contacts_Popup_Already_Exists" />
+					<include name="EP_MyProfile_IsTextable" />
+					<include name="EP_CareProfile_AddMeAsACareRecipient" />
+					<include name="EP_CareProfile_UploadProfileDocument" />
+					<include name="EP_CareProfile_Ensureemail" />
+					<include name="EP_AddCareRecipientsErrorMsg" />
+					<include name="EP_AddCareRecipientsPrintProfile" />
+					<include name="EP_AddCareRecipientsBirthDate" />
+					<include name="EP_AddCareRecipientsDownloadCareForm" />
+					<include name="EP_AddCareRecipientsDOB" />
+					<include name="EP_CareRecipientsPreferredLocation" />
+					<include name="EP_CareProfileLocations" />
+				</methods>
+			</class>
+
+			<class
+				name="com.bhs.scripts.employeeportal.EP_Registration_Locations_Test">
+				<methods>
+					<include name="EP_Locations_AddLocation_LocationFieldValidations" />
+					<include name="EP_Locations_ZipCode_AutoComlpete" />
+					<include name="EP_Locations_UpdateAddress" />
+					<include name="EP_PastReservationNotAffectedByEdits" />
+					<include name="EP_Locations_AddLocation_ValidationMessages" />
+					<include name="EP_Locations_Add_Address" />
+					<include name="EP_Locations_Update_Address" />
+					<include name="EP_Locations_AddLocation_PetFieldValidations" />
+					<include name="EP_CareRecipient_Inactive" />
+					<include name="EP_CareProfile_VerifyAddressInfo" />
+					<include name="EP_LeadingZerosZipCode" />
+					<include name="EP_CareAtLocatioWithoutHome" />
+					<include name="EP_RemoveAPetFromALocation" />
+					<include name="EP_PetTypeDropdownValidation" />
+					<include name="EP_ValidateLocations" />
+					<include name="EP_CannotUpdateLocations" />
+				</methods>
+			</class>
+
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_General_Test">
+				<methods>
+					<include name="EP_CareProfileSignupUserCBReservation" />
+					<include name="EP_Res_Edit_Cancel_CareSessions" />
+					<include name="EP_ReservationFulfillment_ReserveNow" />
+					<include name="EP_Reservation_TellUsAbout_Section" />
+				</methods>
+			</class>
+			
+			<class name="com.bhs.scripts.employeeportal.EP_Resources">
+				<methods>
+					<include name="EP_ResourcesPageLinksValidation" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+	
+	<test name="Reservations">
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_Step1_Tests">
+				<methods>
+						<include name="viewAndSelectReasonForcare" >
+						<parameter name="client" value="Client1"/>
+						</include>
+						<include name="healthStatusInHomeEligible"/>
+						<include name="careRecipientsWithDefaultFields"/>
+						<include name="verifyCareRecipientsAndContinueToStep2"/>
+						<include name="viewAndSelectCareRecipients"/>
+						<include name="specialProgramReservation"/>
+						<include name="learnMoreSpecialPrograms"/>
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_step2_Test">
+				<methods>
+				<parameter name="client" value="Client5" />
+						<include name="EP_Res_Step2_Care_Recepient_Checked"/>
+						<include name="EP_Res_Step2_AddLocation"/>
+						<include name="EP_ReservationStep2_AlongaRoute"/>
+						<include name="EP_ReservationStep2_NavBack"/>
+						<include name="EP_ReservationWizardStep2to3"/>
+						<include name="EP_ResStep2DateTimenotPreselected"/>
+						<include name="EP_ReserStep3to2RemoveCareSession"/>
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_step3_Test">
+				<methods>
+						<parameter name="client5" value="Client5"/>
+						<parameter name="client1" value="client1"/>
+						<parameter name="client8" value="Client8"/>
+						<parameter name="client2" value="Client2"/>
+						<include name="EP_ResStep3InHomeCare"/>
+						<include name="EP_ResStep3InHomeCare_12125To28"/>
+						 <include name="EP_ResStep3InHomeCare_Hotel_AddLocation"/>
+						<include name="EP_ResStep3InHomeCare_Step3toStep4"/>
+						<include name="EP_ResStep3_CRExpectedAtCareLocation"/>
+						<include name="EP_ResStep3_SelfcareRecipient_CCDisabled"/>
+						<include name="EP_ResStep3_SrchCriteriaAndDistanceSldrEdited"/>
+						<include name="EP_ResStep3CenterBasedDisabledforill"/>
+						<include name="EP_ResStep3ScheduleAdultsCare"/> 
+						<include name="EP_ResStep3InHomeReqProviderCaregiver"/>
+						<include name="EP_ResStep3ExcludeforFutureCare"/>
+						<include name="EP_ResStep3_InHome_HotelCare_ErrormessageValidation"/>
+						<include name="EP_ReservationWizardStep3_PetFieldsValidations"/> 
+						<include name="EP_ReservationWizardStep3_Add_Delete_Pet"/>
+						<include name="EP_ResStep3CenterBasedCare"/>
+						<include name="EP_Step3ToStep2"/>
+						<include name="EP_Step3ToStep4"/>
+						<include name="EP_ResStep3ViewFullProfile"/>
+						<include name="EP_ResStep3ReserveNow"/>
+						<include name="EP_ResStep3MapDirections"/>
+						<include name="EP_ResStep3SpecialPrograms"/>
+						<include name="EP_EditReservation_UpdateInfoforCBRes"/>
+						<include name="EP_DisplayForInHomeCare"/>
+					</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_Step4_Test"> 
+                 <methods> 
+                       <parameter name="client" value="Client5"/>
+                       <include name="EP_ReservationSignupUser"/>
+					   <include name="EP_ReservationWizardStep45_backButton"/> 
+                       <include name="EP_ReservationWizardStep4_Instructions"/> 
+                       <include name="EP_ReservationWizardStep4_RadioButton"/> 
+                       <include name="EP_ReservationWizardStep4_VerifyCR"/> 
+              		   <include name="EP_ReservationWizardStep4_VerifyPageNavigation"/> 
+                       <include name="EP_ReservationWizardStep4_VerifySplInstIsBlank"/> 
+                       <include name="EP_ReservationWizardStep45_VerifyCareProfilePage"/> 
+                       <include name="EP_ReservationWizardStep4_VerifyCareProfilePageBackBtn"/> 
+                       <include name="EP_ReservationWizardStep45_VerifyCareRecipientsMsg"/> 
+                       <include name="EP_ReservationWizardStep4_NavigatetoStep5"/> 
+                  </methods> 
+            </class> 
+			<class name="com.bhs.scripts.employeeportal.EP_Reservation_Step5_Test">
+				<methods>
+					<parameter name="client" value="Client5"/>
+					<include name="EP_ReservationSignupUser"/>
+				    <include name="EP_ReservationWizardStep5_PrefMethodOfContact"/> 
+                     <include name="EP_ReservationWizardStep5_VerifyCareProviders"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyCareSessions"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyCareRecipients"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyReservationContacts"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyPaymentMethodEdit"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyPaymentTerms"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyUtilizationModule"/> 
+                    <include name="EP_ReservationStep5_TermsofPayment"/> 
+                    <include name="EP_Step5ToStep4"/> 
+                    <include name="EP_Step5_VerifyReqDifferentTime"/>         
+                    <include name="EP_ReservationWizardStep5_VerifyValidationEmailPhoneNum"/> 
+                    <include name="EP_ReservationWizardStep5_VerifyRequestReservation"/> 
+                    <include name="EP_ReservationWizardStep5_AuthContact_Error"/> 
+                    <include name="EP_ReservationWizardStep5_EditButton"/>
+                    <include name="EP_ReservationWizardStep5_ViewallAcceptableProviderslink"/>
+                 	<include name="EP_ReservationWizardStep5_Editresv"/> 
+                 	<include name="EP_ReservationWizardStep5_InHome_RequestReservation" />
+                 	<include name="EP_EditResv_CareProfile" />
+                 	<include name="EP_ReservationWizardStep5_VerifyPaymentMethod_Dropdown"/>
+                    <include name="EP_ReservationWizardStep5_SelectfromPaymentMethod_Dropdown"/>
+                 	<include name="EP_ReservationWizardStep5_EditSplInst"/> 
+                 	<include name="EP_ReservationWizardStep5_EditResv_PaymentMethod" />
+                 	<include name="EP_ReservationWizardStep5_AddNewPaymentMethod" />
+                </methods>
+			</class>
+			</classes>
+	</test>
+<test name="EP_Reservation_managment">
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />	
+			<class
+				name="com.bhs.scripts.employeeportal.EP_ReservationManagement_Tests">
+				
+				<methods>
+					<include name="EP_EditReservation" />
+					<include name="EP_ReservationContact" />
+					<include name="EP_CareProvidersLinksValidation" />
+					<include name="EP_CancelReservation" />
+				</methods>
+			</class>
+			<class
+				name="com.bhs.scripts.employeeportal.EP_Registration_SmokeTest_Tests"/>
+				
+				<class
+				name="com.bhs.scripts.employeeportal.EP_Edit_Reservation_Test">
+				
+				<methods>
+						<include name="EP_EditReservation_EditCareOptions"/>
+						<include name="EP_InHomeReservation"/>
+						<include name="EP_Res_Display_CareRecipient"/>
+						<include name="EP_Res_Edit__Display_NannyShare_Field"/>
+						<include name="EP_Res_Edit_CareRecipient_Info"/>
+						<include name="EP_Res_Edit_CareSession_Application"/>
+						<include name="EP_Res_Edit_Greeter_InHome"/>
+						<include name="EP_Res_Edit_Ign_WarningDeactivitingAC"/>
+						<include name="EP_Res_Edit_InHome"/>
+						<include name="EP_Res_Edit_RelearsersName"/>
+						<include name="EP_Res_Edit_ReservationComments"/>
+						<include name="EP_Res_Edit_Updae_CareRecipient"/>
+						<include name="EP_Res_Update_Info_InHome"/>
+						<include name="EP_Res_Verify_ImputedIncome_Msg"/>
+						<include name="EP_Reservation_EditReservation_CareProviderLink"/>
+						<include name="EP_SignupUserEditReservation"/>
+						<include name="EP_Step3ChangeCenterloc"/>
+						<include name="PP_Reservation_Draft"/>
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+
+
+<test name="Regression">
+		<classes>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+				<methods>
+					<include name="EP_SignUpAndCBReservationTest" />
+					<include name="CC_ConfirmCBReservation" />
+					<include name="EP_AddCRAndDoCBReservation" />
+					<include name="EP_InHomeReservation" />
+					<include name="PP_ConfirmIHReservation" />
+				</methods>
+			</class>
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown" />
+
+			<class
+				name="com.bhs.scripts.employeeportal.EP_CBReservation">
+				<methods>
+					<include name="EP_CBReservation1" />
+				</methods>
+			</class>
+		</classes>
+		
+	</test>
+	
+<!--<test name="Client1 Sanity">
+	<parameter name="client" value="1"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Client2 Sanity">
+	<parameter name="client" value="2"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+               <include name="EP_InHomeReservation1"/> 
+               <include name="PP_ConfirmIHReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Client3 Sanity">
+	<parameter name="client" value="3"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+               
+			</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Client4 Sanity">
+	<parameter name="client" value="4"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+               <include name="EP_InHomeReservation1"/> 
+               <include name="PP_ConfirmIHReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Client5Sanity">
+	<parameter name="client" value="5"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+               <include name="EP_InHomeReservation1"/> 
+               <include name="PP_ConfirmIHReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Client6 Sanity">
+	<parameter name="client" value="6"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+               
+			</methods>
+			</class>
+		</classes>
+	</test>
+	 <test name="Client7 Sanity">
+	<parameter name="client" value="7"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	 <test name="Client8 Sanity">
+	<parameter name="client" value="8"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	<test name="Client9 Sanity">
+	<parameter name="client" value="9"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+               <include name="EP_InHomeReservation1"/> 
+               <include name="PP_ConfirmIHReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	 <test name="Client10 Sanity">
+	<parameter name="client" value="10"/>
+		<classes>
+
+			<class name="com.bhs.scripts.employeeportal.BH_SetUp_TearDown"/>
+			<class name="com.bhs.scripts.employeeportal.EP_CBAndInHomeReservations_Tests">
+			<methods>
+               <include name="EP_SignUpAndCBReservationTest1" />
+               <include name="CC_ConfirmCBReservation1" />
+               <include name="EP_AddCRAndDoCBReservation1" />
+               <include name="EP_InHomeReservation1"/> 
+               <include name="PP_ConfirmIHReservation1" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+
+
+--></suite>

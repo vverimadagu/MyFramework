@@ -1,0 +1,16 @@
+************************** - HOGANLOVELLSUSLLP - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'HoganLovells'
+Enter Employer Password 'backupcare7'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'FN0154'
+Enter LastName 'LN0154'
+Enter Username 'BHU082714110358'
+Enter Employee ID 'FN0154.LN0154@testemail.com'
+
+

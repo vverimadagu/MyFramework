@@ -1,0 +1,16 @@
+************************** - THOMSONREUTERS - STEPS TO REPRODUCE DEFECT - **************************
+
+Navigate to URL - http://coauwebdev552:90
+Verify Login Page Displayed
+Click 'Sign Up'
+Enter Employer Id 'Thomson'
+Enter Employer Password 'backupcare4'
+Click 'Verify Employer'
+Check Checkbox 'Accept Use Policy'
+Click 'Submit'
+Enter FirstName 'ThomReutFname154'
+Enter LastName 'ThomReutLname154'
+Enter Username 'BHU082714114244'
+Enter Employee ID 'ThomReut154'
+
+

@@ -1,0 +1,44 @@
+			*******************************************************
+			Test Script Name	: DEFAULT TEST
+			Test Environment	: CSC QA
+			Test Executed By	: VENKATA RAMANA REDDY
+			Java Version		: 1.8.0_65
+			OS Name / Version	: WINDOWS 8 / 6.2
+			Computer Name		: PRAGNABHARGAV
+			Browser Name / Version	: FIREFOX / 33.1
+			Test Start Time		: Sat Feb 13 23:23:01 IST 2016
+			Test End Time		: Sat Feb 13 23:24:49 IST 2016
+			Script Execution Time	: 00:01:48
+			Total Number Of Steps	: 5
+			Script Execution Status	: PASS
+
+			*******************************************************
+
+Step 1Step 1		02/13/2016 23:23:18		PASS
+------------------------------------------------------------
+Description	: Navigate to URL - https://www.google.com
+Actual Result	: Navigate to URL - https://www.google.com - SUCCESSFULL
+
+
+Step 2Step 2		02/13/2016 23:23:44		PASS
+------------------------------------------------------------
+Description	: Enter SearchText 'Selenium.org'
+Actual Result	: Enter SearchText 'Selenium.org' - SUCCESSFULL
+
+
+Step 3Step 3		02/13/2016 23:23:57		PASS
+------------------------------------------------------------
+Description	: Click 'SearchBtn'
+Actual Result	: Click 'SearchBtn' - SUCCESSFULL
+
+
+Step 4Step 4		02/13/2016 23:24:07		PASS
+------------------------------------------------------------
+Description	: Click 'SeleniumLink'
+Actual Result	: Click 'SeleniumLink' - SUCCESSFULL
+
+
+Step 4
+		-------->[ End Of Script Execution ]<--------
+
+
